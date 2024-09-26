@@ -1,0 +1,137 @@
+/* Genel Stil */
+body {
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    /* Arka plan siyah */
+    font-family: Arial, sans-serif;
+    color: white;
+    /* Metin rengi beyaz ;*/
+}
+
+/* Kontrol Butonları */
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button#startBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+.controls button#startBtn:hover {
+    background-color: #218838;
+}
+
+.controls button#stopBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.controls button#stopBtn:hover {
+    background-color: #c82333;
+}
+
+.controls button#playBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+.controls button#playBtn:hover {
+    background-color: #0069d9;
+}
+
+/* Renk Kutuları */
+.color-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    opacity: 0;
+    /* Başlangıçta görünmez */
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-box.active {
+    opacity: 1;
+    /* Aktif olduğunda görünür */
+}
+
+/* Müzik Kontrolü */
+.music-controls {
+    margin-top: 20px;
+}
+
+.music-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #17a2b8;
+    color: white;
+}
+
+.music-controls button:hover {
+    background-color: #138496;
+}
+
+/* Müzik Yükleme */
+.music-upload {
+    margin-top: 20px;
+}
+
+.music-upload input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.export-controls {
+    margin-top: 20px;
+}
+
+.export-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #ffc107;
+    color: black;
+}
+
+.export-controls button:hover {
+    background-color: #e0a800;
+}
+
+.colorControlP {
+    text-align: center;
+    text-color: white;
+}

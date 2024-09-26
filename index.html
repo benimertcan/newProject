@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Renk Kontrolü, Kayıt ve Müzik</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Kontrol Butonları -->
+    <div class="controls">
+        <button id="startBtn">Kaydı Başlat</button>
+        <button id="stopBtn" disabled>Kaydı Durdur</button>
+        <button id="playBtn" disabled>Oynat</button>
+    </div>
+    <div class="export-controls">
+        <button id="exportBtn" disabled>Kaydı Dışa Aktar</button>
+    </div>
+
+    <!-- Renk Kutuları -->
+    <div class="color-boxes">
+        <div id="s" class="color-box" style="background-color: red;"></div>
+        <div id="d" class="color-box" style="background-color: green;"></div>
+        <div id="f" class="color-box" style="background-color: blue;"></div>
+        <div id="j" class="color-box" style="background-color: yellow;"></div>
+        <div id="k" class="color-box" style="background-color: purple;"></div>
+        <div id="l" class="color-box" style="background-color: orange;"></div>
+    </div>
+
+    <!-- Müzik Yükleme -->
+    <div class="music-upload">
+        <label for="musicFile">Müzik Dosyasını Yükleyin:</label>
+        <input type="file" id="musicFile" accept="audio/*">
+    </div>
+
+    <!-- Müzik Kontrolü -->
+    <div class="music-controls">
+        <button id="playMusicBtn" disabled>Müziği Çal</button>
+        <button id="pauseMusicBtn" disabled>Müziği Durdur</button>
+    </div>
+
+    <!-- Müzik Dosyası -->
+    <audio id="backgroundMusic"></audio>
+    <p class="colorControlP"> Renkleri " S , D , F , J , K , L " tuşlarıyla kontrol edebilirsiniz.</p>
+
+    <script src="scripts.js"> </script>
+
+</body>
+
+</html>

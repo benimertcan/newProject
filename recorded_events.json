@@ -1,0 +1,182 @@
+[
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 2278
+  },
+  {
+    "type": "keydown",
+    "key": "d",
+    "timestamp": 2365
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 2373
+  },
+  {
+    "type": "keydown",
+    "key": "s",
+    "timestamp": 2508
+  },
+  {
+    "type": "keyup",
+    "key": "d",
+    "timestamp": 2576
+  },
+  {
+    "type": "keyup",
+    "key": "s",
+    "timestamp": 2728
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 2756
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 2876
+  },
+  {
+    "type": "keydown",
+    "key": "s",
+    "timestamp": 3284
+  },
+  {
+    "type": "keyup",
+    "key": "s",
+    "timestamp": 3412
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 3572
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 3680
+  },
+  {
+    "type": "keydown",
+    "key": "d",
+    "timestamp": 3960
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 4087
+  },
+  {
+    "type": "keyup",
+    "key": "d",
+    "timestamp": 4127
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 4235
+  },
+  {
+    "type": "keydown",
+    "key": "d",
+    "timestamp": 4243
+  },
+  {
+    "type": "keydown",
+    "key": "s",
+    "timestamp": 4343
+  },
+  {
+    "type": "keyup",
+    "key": "d",
+    "timestamp": 4391
+  },
+  {
+    "type": "keyup",
+    "key": "s",
+    "timestamp": 4483
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 4985
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 5126
+  },
+  {
+    "type": "keydown",
+    "key": "d",
+    "timestamp": 5206
+  },
+  {
+    "type": "keyup",
+    "key": "d",
+    "timestamp": 5342
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 5590
+  },
+  {
+    "type": "keydown",
+    "key": "s",
+    "timestamp": 5714
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 5734
+  },
+  {
+    "type": "keyup",
+    "key": "s",
+    "timestamp": 5902
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 5910
+  },
+  {
+    "type": "keydown",
+    "key": "s",
+    "timestamp": 6030
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 6046
+  },
+  {
+    "type": "keyup",
+    "key": "s",
+    "timestamp": 6162
+  },
+  {
+    "type": "keydown",
+    "key": "d",
+    "timestamp": 6637
+  },
+  {
+    "type": "keyup",
+    "key": "d",
+    "timestamp": 6769
+  },
+  {
+    "type": "keydown",
+    "key": "f",
+    "timestamp": 6901
+  },
+  {
+    "type": "keyup",
+    "key": "f",
+    "timestamp": 7017
+  }
+]
